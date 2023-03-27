@@ -1,0 +1,29 @@
+// This is the main import file from sass
+// Adding new sass file under here 
+
+    // Abstract 
+        // Functions 
+            @import "./abstracts/function";
+        // Mixins 
+            @import "./abstracts/mixins";
+        // Variables
+            @import "./abstracts/variables";
+    // Base 
+        // Animations
+            @import "./base/animations";
+        // Base
+            @import "./base/base";
+        // Typography
+            @import "./base/typography";
+        // Utillities
+            @import "./base/utillties";
+    // Components
+        // Button 
+            @import "./components/button";
+    // Layout 
+
+    // Pages
+
+    // Node bootstrap import file 
+        // 
+        @import "../../node_modules/bootstrap/scss/bootstrap.scss";
