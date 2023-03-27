@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "sass src/sass:dist/css",
-    "watch": "live-server --port:9001"
+    "watch": "sass --watch src/sass:dist/css & live-server"
   },
   "author": "Kent Erik Hole",
   "license": "ISC",
