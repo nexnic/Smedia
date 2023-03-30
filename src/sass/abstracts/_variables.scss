@@ -8,15 +8,16 @@
 
     // Gray Color 
         // Gray Light 
-            $Color-Gray-Light: #8C8C8C;
+            $Color-Gray-Light: #d2d2d2;
         // Gray 
-            $Color-Gray: #4D4D4D;
+            $Color-Gray: #737373;
         // Gray Dark
             $Color-Gray-Dark: #333333;
 
     // Black Color 
         $Color-Black: #000000;
-    
+    // White Color 
+        $Color-white: #F1F1F1;
     // Red Color 
         $Color-Red: #B81101;
     
@@ -25,6 +26,12 @@
     
     // Green Color
         $Color-Green: #2FF000;
+    // Box Shadow Color
+        // Black Color  
+            $BS-Color-Default: rgba(0,0,0,0.20);
+        // White Color 
+            $BS-Color-White: rgba(255, 255, 255, 0.2);
+    
 
 // Padding 
     // Header Padding 
@@ -33,10 +40,14 @@
         $pad-form: 3rem 2.5rem;
     // Link Padding 
         $pad-link: 5px 10px;
+    // Padding P-small 
+        $pad-psmall: .4rem 0 0 .4rem;
 
 // Border - Size
     // Border Size Default
         $borsizeDefault: 5px;
+    // Border Size Small
+        $borsizeSmall: 1px;
 
 // Border - Radius 
     // Form Border Raduis 
@@ -45,8 +56,7 @@
 // Box-shadow 
     // Default
     $Box-Shadow-Default: 5px 5px 5px 0px;
-    // Color 
-        $BS-Color-Default: rgba(0,0,0,0.20);
+   
 
 // GAP 
     // GAP-default 
