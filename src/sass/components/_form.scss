@@ -1,0 +1,30 @@
+
+// Form Container 
+.form {
+    display: flex;
+    flex-direction: column;
+    background-color: $Color-Gray;
+    border: $Color-Gray-Light solid $borsizeDefault;
+    border-radius: $borRadForm;
+    max-width: fit-content;
+    padding: $pad-form;
+    box-shadow: $Box-Shadow-Default $BS-Color-Default;
+    
+    &__field {
+        display: flex;
+        flex-direction: column;
+        gap: $gap-small;
+    }
+    &__btn {
+        display: flex;
+        justify-content: center;
+        padding:0.4rem 0 0.6rem 0;
+    }
+    &__bottom {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+}
+
