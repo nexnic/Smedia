@@ -1,0 +1,16 @@
+.sm__input {
+    background: 0;
+    border: 0;
+    border-radius: 0;
+    border-bottom: 2px solid black;
+    outline: none;
+    padding: 10px 15px;
+
+    &:focus {
+        border-bottom: 2px solid $Color-Yellow;
+        transform: scaleY(1.02);
+        color: white;
+    }
+
+    
+}
