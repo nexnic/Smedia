@@ -3,12 +3,12 @@
 .form {
     display: flex;
     flex-direction: column;
-    background-color: $Color-Gray;
-    border: $Color-Gray-Light solid $borsizeDefault;
+    background-color: $Color-white;
+    border: $Color-Gray-Light solid $borsizeSmall;
     border-radius: $borRadForm;
     max-width: fit-content;
     padding: $pad-form;
-    box-shadow: $Box-Shadow-Default $BS-Color-Default;
+    box-shadow: $Box-Shadow-Default $BS-Color-White;
     
     &__field {
         display: flex;
