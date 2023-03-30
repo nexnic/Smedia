@@ -1,4 +1,115 @@
 @charset "UTF-8";
+*, *::before *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.body {
+  background-color: #333333;
+}
+
+.heading__main {
+  font-size: 38px;
+  color: white;
+}
+.heading__sub {
+  color: lightblue;
+  font-size: 16px;
+}
+.heading__secondary {
+  color: black;
+}
+
+.p__small {
+  font-size: 0.7rem;
+  color: #737373;
+  padding: 0.4rem 0 0 0.4rem;
+}
+
+.btn__link--form {
+  font-size: 0.7rem;
+  text-decoration: underline;
+  color: gray;
+}
+.btn__link--form:hover {
+  padding: 5px 10px;
+  background: black;
+  transform: rotate(1.5deg);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  background-color: #F1F1F1;
+  border: #d2d2d2 solid 1px;
+  border-radius: 0.5rem;
+  max-width: fit-content;
+  padding: 3rem 2.5rem;
+  box-shadow: 5px 5px 5px 0px rgba(255, 255, 255, 0.2);
+}
+.form__field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+.form__btn {
+  display: flex;
+  justify-content: center;
+  padding: 0.4rem 0 0.6rem 0;
+}
+.form__bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sm__input {
+  background: 0;
+  border: 0;
+  border-radius: 0;
+  border-bottom: 2px solid black;
+  outline: none;
+  padding: 10px 15px;
+}
+.sm__input:focus {
+  border-bottom: 2px solid #F0DB01;
+  transform: scaleY(1.02);
+  color: white;
+}
+
+.active--fb {
+  display: flex;
+}
+
+.hidden-fb {
+  display: none;
+}
+
+.header {
+  display: flex;
+  min-width: 100%;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem 0 5rem 0;
+}
+.header__hero {
+  text-align: center;
+  max-width: 75%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  align-items: center;
+}
+
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
