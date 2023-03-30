@@ -11,38 +11,44 @@
     <!-- Top Browser -->
     <title>Smedia | Login</title>
 </head>
-<body>
-    <header>
-        <h1>Smedia</h1>
-        <p>
-            Social media is a powerful tool that has transformed the way we connect, communicate, and consume
-            information.
-        </p>
+<body class="body">
+    <header class="header">
+        <div class="header__hero">
+            <h1 class="heading">
+                <span class="heading__main">
+                    Smedia
+                </span>
+                <br>
+                <span class="heading__sub">
+                    Social media is a powerful tool that has transformed the way we connect
+                </span>
+            </h1>
+        </div>
     </header>
-    <main>
+    <main class="main">
         <div class="form">
             <form action="" method="post" id="form__signin">
-                <div class="">
+                <div class="form__field">
                     <input type="email" class="sm__input" id="form__signin--email" type="email"
                         placeholder="name@mail.com" required>
-                    <label for="email">Email Address</label>
-                    <small>@Noroff.no or @stud.noroff.no email can login</small>
+                    <label for="email"></label>
+                    <p class="p__small">@Noroff.no or @stud.noroff.no email can login</p>
                 </div>
-                <div class="">
+                <div class="form__field">
                     <input type="password" class="sm__input" id="form__signin--password" placeholder="****" required>
                     <label for="password"></label>
-                    <small>@Noroff.no or @stud.noroff.no email can login</small>
+                    <p class="p__small">@Noroff.no or @stud.noroff.no email can login</p>
                 </div>
-                <div class="">
+                <div class="form__btn">
                     <button class="btn btn-primary" id="form__signin--btn">
-                        submit
+                        Login
                     </button>
                 </div>
-                <div class="">
-                    <a href="#">
+                <div class="form__bottom">
+                    <a href="#" class="btn__link--form">
                         Forgott Password
                     </a>
-                    <a href="#">
+                    <a href="#" class="btn__link--form">
                         Register Now
                     </a>
                 </div>
@@ -50,19 +56,19 @@
         </div>
         <div class="form">
             <form method="post" id="form__register">
-                <div class="">
+                <div class="form__field">
                     <input type="name" class="sm__input" id="form__register--name" placeholder="Full name" required>
                     <label for="name"></label>
                 </div>
-                <div class="">
+                <div class="form__field">
                     <input type="email" class="sm__input" id="form__register--email" placeholder="Name@mail.com" required>
                     <label for="email"></label>
                 </div>
-                <div class="">
+                <div class="form__field">
                     <input type="url" name="url-banner" id="form__register--banner" placeholder="URL to banner">
                     <label for="url-banner"></label>
                 </div>
-                <div class="">
+                <div class="form__field">
                     <input type="url" name="url-avatar" id="form__register--avatar" placeholder="Url to Profile">
                     <label for="url-avatar"></label>
                 </div>
