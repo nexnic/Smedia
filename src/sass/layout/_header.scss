@@ -1,0 +1,13 @@
+.header {
+
+    display: flex;
+    min-width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: $pad-header;
+    
+    &__hero {
+        text-align: center;
+        max-width: 75%;
+    }
+}
