@@ -2,18 +2,31 @@
 
 
 .heading {
+
+    // Main Heading
+    // H1
     &__main {
         font-size: 38px;
         color: white;
     }
+
+    // Heading Sub 
+    // H1 / H2
     &__sub {
         color: lightblue;
         font-size: 16px;
     }
+    
+    // Heading Secondary
+    // H3 
+    &__secondary {
+        color: black;
+    }
 } 
 
 .p__small {
-    font-size: 0.7rem;
-    padding: .4rem 0 0 .4rem; 
+    font-size: $fs-extra-small;
+    color: $Color-Gray;
+    padding: $pad-psmall; 
 }
 
