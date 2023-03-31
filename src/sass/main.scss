@@ -20,8 +20,19 @@
     // Components
         // Button 
             @import "./components/button";
+        // Form 
+            @import "./components/form";
+        // Input 
+            @import "./components/input";
+        // Tools 
+            @import "./components/tools";
     // Layout 
-
+        // Header  
+            @import "./layout/header";
+        // Main 
+            @import "./layout/main";
+        // Footer 
+            @import "./layout/footer";
     // Pages
 
     // Node bootstrap import file 

@@ -1,0 +1,16 @@
+.btn {
+    &__link {
+
+        &--form {
+            font-size: $fs-extra-small;
+            text-decoration: underline;
+            color: gray;
+
+            &:hover {
+                padding: $pad-link;
+                background: black;
+                transform: rotate(1.5deg);
+            }
+        }
+    }
+}

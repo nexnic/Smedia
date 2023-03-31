@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta Tage-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="/dist/css/main.css">
+    <!-- Top Browser -->
+    <title>Smedia | Login</title>
+</head>
+<body class="body">
+    <header class="header">
+        <div class="header__hero">
+            <h1 class="heading">
+                <span class="heading__main">
+                    Smedia
+                </span>
+                <br>
+                <span class="heading__sub">
+                    Social media is a powerful tool that has transformed the way we connect
+                </span>
+            </h1>
+        </div>
+    </header>
+    <main class="main">
+        <div class="form hidden-fb">
+            <form action="" method="post" id="form__signin">
+                <h3 class="heading__secondary">Sign in</h3>
+                <div class="form__field">
+                    <input type="email" class="sm__input" id="form__signin--email" type="email"
+                        placeholder="name@mail.com" required>
+                    <label for="email"></label>
+                    <p class="p__small">@Noroff.no or @stud.noroff.no email can login</p>
+                </div>
+                <div class="form__field">
+                    <input type="password" class="sm__input" id="form__signin--password" placeholder="********" required>
+                    <label for="password"></label>
+                    <p class="p__small">@Noroff.no or @stud.noroff.no email can login</p>
+                </div>
+                <div class="form__btn">
+                    <button class="btn btn-primary" id="form__signin--btn">
+                        Login
+                    </button>
+                </div>
+                <div class="form__bottom">
+                    <a href="#" class="btn__link--form">
+                        Forgott Password
+                    </a>
+                    <a href="#" class="btn__link--form">
+                        Register Now
+                    </a>
+                </div>
+            </form>
+        </div>
+        <div class="form .action">
+            <form method="post" id="form__register">
+                <h3 class="heading__secondary">
+                    Register User
+                </h3>
+                <div class="form__field">
+                    <input type="name" class="sm__input" id="form__register--name" placeholder="Full name" required>
+                    <label for="name"></label>
+                    <p class="p__small">
+                        Fullname
+                    </p>
+                </div>
+                <div class="form__field">
+                    <input type="email" class="sm__input" id="form__register--email" placeholder="Name@mail.com" required>
+                    <label for="email"></label>
+                    <p class="p__small">
+                        Only @Noroff.no or @stud.noroff.no
+                    </p>
+                </div>
+                <div class="form__field">
+                    <input type="url" class="sm__input" name="url-banner" id="form__register--banner" placeholder="URL to banner">
+                    <label for="url-banner"></label>
+                    <p class="p__small">
+                        URL to Banner 
+                    </p>
+                </div>
+                <div class="form__field">
+                    <input type="url" class="sm__input" name="url-avatar" id="form__register--avatar" placeholder="Url to Profile">
+                    <label for="url-avatar"></label>
+                    <p class="p__small">
+                        Url to Profile image 
+                    </p>
+                </div>
+                <div class="form__btn">
+                    <button class="btn btn-primary" id="form__register--btn">
+                        Register User
+                    </button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer class="footer"> 
+        <img src="./dist/assets/logo/logo.png" alt="Seeing a logo to Smedia" style="width: 100px;">
+        <ul class="footer__links">
+            <li>
+                <a href="#">Privacy</a>
+            </li>
+            <li>
+                <a href="#">Terms and conditions</a>
+            </li>
+            <li>
+                <a href="#">informasjonskapsler</a>
+            </li>
+            <li>
+                <a href="#">help</a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
